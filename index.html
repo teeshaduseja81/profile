@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- Include Bootstrap CSS (via CDN) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body class="body-bg">
+    <header>
+        <!-- Header content with your logo, name, and navigation -->
+        <div class="header-logo">
+            <img src="logo.PNG" alt="Your Logo">
+        </div>
+        <div class="header-navigation">
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link" href="#Teesha">Teesha</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="hero">
+        <!-- Hero section with your intro, picture, about me, education, skills, and contact details -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- Left side with your intro -->
+                    <div class="hero-intro">
+                        <h1>Hello, I am Teesha Duseja</h1>
+                        <p>A web developer from Pakistan</p>
+                        <h2>ABOUT ME</h2>
+                        <p>Hello, I am Teesha Duseja, a dedicated CS undergraduate student at Sukkur IBA University. I'm passionate about crafting innovative web solutions that blend creativity with cutting-edge technology to deliver exceptional user experiences.</p>
+                        <h2>EDUCATION</h2>
+                        <p>Currently pursuing a Bachelor's degree in Computer Science at Sukkur IBA University, where I'm honing my skills and knowledge to excel in the ever-evolving field of web development.</p>
+                        <h2>SKILLS</h2>
+                        <ul id="skills-list">
+                            <li>Currently pursuing a Bachelor's degree in Computer Science at Sukkur IBA University.</li>
+                            <li>Proficient in C++, Database Management, Assembly Language.</li>
+                            <li>Ongoing exploration of Web Development.</li>
+                        </ul>
+                        <h2>CONTACT DETAILS</h2>
+                        <p>
+                            Location: Pakistan<br>
+                            Email: teeshaduseja81@gmail.com<br>
+                            LinkedIn: Teesha Duseja<br>
+                            Contact No: 03113572435
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <!-- Right side with your rectangular image -->
+                    <div class="hero-image">
+                        <img src="mypic.jpg" alt="Your Picture" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    <section id="signup">
+        <div class="container">
+            <h2>CONTACT US</h2>
+            <form id="signup-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="contact">Contact</label>
+                    <input type="tel" class="form-control" id="contact" name="contact" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+    <!-- Your other sections go here -->
+    <footer>
+        <!-- Footer content if needed -->
+    </footer>
+    <!-- Include your JavaScript file -->
+    <script src="index.js"></script>
+</body>
+</html>
